@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/black"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".AfterSplash">
+
+    <Button
+        android:id="@+id/learn"
+        android:layout_width="259dp"
+        android:layout_height="80dp"
+        android:background="@drawable/bb"
+        android:text="Learning Mode"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/test"
+        android:layout_width="263dp"
+        android:layout_height="89dp"
+        android:layout_below="@+id/learn"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bb"
+        android:text="Test Mode"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>

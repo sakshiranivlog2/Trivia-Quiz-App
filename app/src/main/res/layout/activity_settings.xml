@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".Settings">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_gravity="center"
+        android:paddingBottom="5dp"
+        android:background="#F4A2A0"
+        android:layout_marginEnd="30dp"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="#D81B60"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Settings"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:padding="10dp"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@drawable/shadow"
+            android:layout_height="5dp">
+
+        </View>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="About Us"
+                android:textStyle="bold"
+                android:layout_marginStart="5dp"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@drawable/shadow"
+            android:layout_height="5dp">
+
+        </View>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Privacy Policy"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_marginStart="5dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@drawable/shadow"
+            android:layout_height="5dp">
+
+        </View>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/music_textview"
+                android:text="Music"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:layout_marginStart="5dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="end"
+                android:layout_height="match_parent">
+                <Switch
+                    android:id="@+id/music_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:onClick="viewClickHandler"
+                    android:layout_height="wrap_content">
+
+                </Switch>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/bt_settings"
+                android:textSize="27sp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="#EF1464"
+                android:text="OK"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quiz3</string>
+    <string name="what_is_the_best_full_meaning_of_android_operating_system">What is the best full meaning of Android Operating System?</string>
+    <string name="design">Design</string>
+    <string name="todok">TODO</string>
+    <string name="todop">TODO</string>
+    <string name="todol">TODO</string>
+    <string name="todomm">TODO</string>
+    <string name="recordingslp">Recordings</string>
+    <string name="recording1m">recording1</string>
+    <string name="todolo">TODO</string>
+    <string name="todooo">TODO</string>
+
+</resources>

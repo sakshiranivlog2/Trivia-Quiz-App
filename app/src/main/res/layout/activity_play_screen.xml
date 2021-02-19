@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/black"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayScreen">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:textSize="60sp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TEST MODE"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/questionmark"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/todol" />
+
+    <Button
+        android:id="@+id/bt_playQuiz"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        android:textSize="27sp"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Test"/>
+
+
+    <Button
+        android:id="@+id/bt_settings"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        android:textSize="27sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"/>
+
+
+
+
+
+</LinearLayout>

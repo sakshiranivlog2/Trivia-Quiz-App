@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@android:color/black"
+    android:layout_height="match_parent"
+    tools:context=".Result">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/bb"
+        android:paddingTop="40dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTotalQuestionsR"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:layout_marginStart="45dp"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Questions :"/>
+
+        <TextView
+            android:id="@+id/txtCoinsR"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="45dp"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coins :"/>
+        <TextView
+            android:id="@+id/txtCorrectR"
+            android:textSize="35sp"
+            android:layout_marginLeft="45dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Correct"/>
+        <TextView
+            android:id="@+id/txtWrongR"
+            android:layout_width="match_parent"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="45dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+            android:text="Wrong :"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_PlayAgainR"
+                android:layout_width="140dp"
+                android:layout_height="58dp"
+                android:layout_marginStart="45dp"
+                android:background="#FB8C00"
+                android:text="Play Again"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/bt_PlayScreenR"
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:layout_marginStart="20dp"
+                android:background="#FB8C00"
+                android:padding="10dp"
+                android:text="Play Screen"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
